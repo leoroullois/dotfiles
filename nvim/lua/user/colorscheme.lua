@@ -1,17 +1,17 @@
-local colorscheme = "tokyonight-storm"
+local colorscheme = "tokyonight-night"
 -- Lua
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
 if not status_ok then
-  return
+	return
 end
 
 -- TOKYONIGHT
 -- night, storm, day
-
--- require("tokyonight").setup({
---   style = "day",
---   transparent = false,
--- })
+--
+require("tokyonight").setup({
+	style = "night",
+	transparent = true,
+})
 --
 -- NEO DARK
 -- require("neodark").setup({
@@ -29,6 +29,6 @@ end
 
 -- GITHUB
 -- require("github-theme").setup({
---   theme_style = "light",
+--   theme_style = "dark",
 --   -- other config
 -- })

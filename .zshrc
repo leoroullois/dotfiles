@@ -1,8 +1,6 @@
 # Rust
 source "$HOME/.cargo/env"
 
-# export PATH=$HOME/.yarn/bin:$PATH
-# export PATH="$PATH:/home/leyo/.yarn/bin"
 export PATH=$HOME/.yarn/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 
