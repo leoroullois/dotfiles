@@ -1,4 +1,4 @@
-# dotfiles
+# Dotfiles
 
 ## Content
 
@@ -8,12 +8,13 @@ This repository contains dotfiles for :
 - bash
 - tmux
 
-## installing
+## Installing
 
 For installing the dotfiles, just execute this commmand in a linux shell :
 
 ```bash
 ./install.sh
 ```
+
 
 And that's it !

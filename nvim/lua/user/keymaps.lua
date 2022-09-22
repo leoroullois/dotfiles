@@ -25,6 +25,10 @@ keymap("n", "<A-l>", "<C-w>l", opts)
 -- vim keymaps for azerty
 keymap("n", "z","w", opts)
 keymap("n", "Z","W", opts)
+keymap("n", "<leader>w", ":w<CR>")
+
+-- Save file
+keymap("n", "<leader>z", ":w<CR>")
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
