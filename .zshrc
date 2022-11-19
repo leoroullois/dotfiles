@@ -270,3 +270,11 @@ fi
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+alias e4="cd /media/leyo/DATA/ESIEE\ Paris/E4/"
+alias web="cd /media/leyo/DATA/Dev/Web/"
+alias thm="cd ~/Documents/THM"
+alias rootMe="cd ~/Documents/rootMe"
+: undercover && export PS1='C:${PWD//\//\\}> '
+: undercover && new_line_before_prompt=no

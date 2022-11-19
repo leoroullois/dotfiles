@@ -52,6 +52,11 @@ keymap("v", "p", '"_dP', opts)
 -- Press jk fast to enter
 keymap("i", "jk", "<ESC>", opts)
 
+
+keymap("i", "<leader><Tab>", 'copilot#Accept("<Tab>")', { silent = true, expr = true })
+keymap("i", "<C-H>", 'copilot#Previous()', { silent = true, expr = true })
+keymap("i", "<C-K>", 'copilot#Next()', { silent = true, expr = true })
+
 -- Visual --
 -- Stay in indent mode
 keymap("v", "<", "<gv", opts)

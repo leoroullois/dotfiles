@@ -144,7 +144,7 @@ return packer.startup(function(use)
 		end,
 	})
 
-	-- -- Lua
+	-- Lua
 	use({
 		"folke/todo-comments.nvim",
 		commit = "98b1ebf198836bdc226c0562b9f906584e6c400e",
@@ -160,7 +160,7 @@ return packer.startup(function(use)
 
 	use({ "itchyny/vim-cursorword", commit = "cc8114226ceefb5cafe1890e0900d3efb7dab1fd" })
 
-	use({ "aurieh/discord.nvim", commit = "39bc5c4d24f69f93c3d7ba34933c9374c34104b3" })
+	-- use({ "aurieh/discord.nvim", commit = "39bc5c4d24f69f93c3d7ba34933c9374c34104b3" })
 	use({ "nvim-telescope/telescope-file-browser.nvim", commit = "00a814a891de086ed446151bacc559c63682b6ee" })
 	-- use({"nvim-telescope/telescope-media-files.nvim"})
 	use({ "LinArcX/telescope-env.nvim" })
@@ -169,9 +169,14 @@ return packer.startup(function(use)
 		"iamcco/markdown-preview.nvim",
 		run = "cd app && yarn install",
 	})
-  use({
-    "xiyaowong/nvim-transparent"
-  })
+
+	use({
+		"xiyaowong/nvim-transparent",
+	})
+	--
+	-- use({
+	-- 	"rebelot/kanagawa.nvim",
+	-- })
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
