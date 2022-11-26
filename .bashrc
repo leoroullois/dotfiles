@@ -165,4 +165,3 @@ if ! shopt -oq posix; then
 fi
 . "$HOME/.cargo/env"
 
-: undercover && export PS1='C:${PWD//\//\\\}> '

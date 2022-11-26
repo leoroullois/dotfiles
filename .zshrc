@@ -276,5 +276,3 @@ alias e4="cd /media/leyo/DATA/ESIEE\ Paris/E4/"
 alias web="cd /media/leyo/DATA/Dev/Web/"
 alias thm="cd ~/Documents/THM"
 alias rootMe="cd ~/Documents/rootMe"
-: undercover && export PS1='C:${PWD//\//\\}> '
-: undercover && new_line_before_prompt=no
