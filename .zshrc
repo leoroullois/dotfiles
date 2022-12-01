@@ -252,7 +252,7 @@ fi
 
 # some more ls aliases
 alias ll='ls -l'
-alias la='ls -A'
+alias la='ls -la'
 alias l='ls -CF'
 
 # enable auto-suggestions based on the history
@@ -274,5 +274,14 @@ export NVM_DIR="$HOME/.nvm"
 
 alias e4="cd /media/leyo/DATA/ESIEE\ Paris/E4/"
 alias web="cd /media/leyo/DATA/Dev/Web/"
-alias thm="cd ~/Documents/THM"
-alias rootMe="cd ~/Documents/rootMe"
+alias thm="cd /media/leyo/DATA/Cyber/Platforms/THM"
+alias rootme="cd /media/leyo/DATA/Cyber/Platforms/RootMe"
+alias aoc="cd /media/leyo/DATA/Dev/Autre/adventOfCode/2022"
+
+export THM_HOST="10.11.3.99"
+
+alias exegol-update="docker pull nwodtuhs/exegol:light"
+alias exegol-build="docker build --tag nwodtuhs/exegol:light /media/leyo/DATA/Exegol"
+alias exegol-run="docker run –interactive –tty –detach –network host –volume /media/leyo/DATA/Exegol/shared-volume:/share –name exegol nwodtuhs/exegol"
+alias exegol-shell="docker exec -it exegol zsh"
+alias exegol-stop="docker stop exegol && docker rm exegol"
